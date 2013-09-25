@@ -1,0 +1,18 @@
+Legend:
+   whoami
+   
+   knife --version #=> Chef: 11.6.0
+
+There is a .chef directory with knife.rb and SSH keys. It does not show up in the TextMate drawer.
+
+   knife client list #=> firstmoversadvantage-validator
+
+   ssh opscode@184.73.48.17 (password is opscode)
+
+   knife bootstrap 184.73.48.17 -x opscode -P opscode --sudo -N target1
+
+   knife cookbook create apache
+
+   knife cookbook upload apache #=> Uploads the cookbook to the Chef server
+   
+See www.vagrantup.com for Vagrant info. Local virtualization.
